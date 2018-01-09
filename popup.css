@@ -1,1 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:300,650);
+body {
+  background: #693b42
+  min-height: 10px
+  height:750px;
+}
+h1 {
+    font: 700 20px/20px'Inconsolata', Arial, sans-seriff;
+    margin: 20px 20px 0;
+    color:  #693b42      
+}
+input[type=checkbox], input[type=radio] {   
+  visibility: hidden;
+}
+.green{
+  background: #27ae60
+}
+.checkbox {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+/* RADIO BOX */
+ .radio-box {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #2c3e50;
+    margin: 0px 0px;
+    width: 300px;
+}
+.radio-box input[type=radio] {
+    display: none;
+}
+.radio-box label {
+    padding-left: 10px;
+    left: 0;
+    display: block;
+    height: 140px;
+    cursor: pointer;
+    margin: 6px;
+    font: 20px/40px'Montserrat', Arial, sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #5f7183;
+}
+.radio-box label.first {
+    height: 40px;
+    text-align: center;
+    background: #6f8ec2;
+    color: #ffffff;
+}
+.radio-box label.rate {
+    height: 40px;
+    text-align: center;
+    background: #f47321;
+    color: #ffffff;
+}
+.radio-box input[type=radio]:checked + label {
+    background: #27ae60;
+    color: #ffffff;
+}
+
+
+.radio-box label#customButton {
+    height: 40px;
+    text-align: center;
+    background: #EE4396;
+    color: #ffffff;
+}
 
