@@ -14,7 +14,7 @@
   "default_popup": "popup.html"
 
   // Optional
-  "author": "easy.chromeext."
+  "author": "easy.chromeext.",
   "background": {
     // Recommended
     "persistent": false
