@@ -3,7 +3,7 @@
   "name": "Basic background image tool",
   "version": "1.0",
 
-  "description": "A plain text description",
+  "description": "A plain background changing tool",
 
   "browser_action": {
   "default_icon": "arrows.png",
