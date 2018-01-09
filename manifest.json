@@ -3,7 +3,6 @@
   "name": "Basic background image tool",
   "version": "1.0",
 
-  "default_locale": "en",
   "description": "A plain text description",
 
   "browser_action": {
@@ -16,7 +15,8 @@
     "persistent": false
   },
 
-  "optional_permissions": ["tabs"],
+  "permissions":
+    ["tabs", "activeTabs"],
   
     "content_scripts": [
     {
