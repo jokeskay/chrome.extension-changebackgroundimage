@@ -10,11 +10,11 @@
 
   // Pick one (or none)
   "browser_action": {
-  default_icon: "arrows.png",
-  default_popup: "popup.html"
+  "default_icon": "arrows.png",
+  "default_popup": "popup.html"
 
   // Optional
-  "author": easy.chromeext.
+  "author": "easy.chromeext."
   "background": {
     // Recommended
     "persistent": false
