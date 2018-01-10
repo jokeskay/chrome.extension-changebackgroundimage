@@ -6,7 +6,7 @@
   "icons": "arrows.png",
 
   "browser_action": {
-  "default_icon":"arrows.png",
+  "default_icon":"128",
   "default_popup":"popup.html",
   "default_title":"chrom background changer"
   },
