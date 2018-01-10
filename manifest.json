@@ -3,10 +3,10 @@
   "name": "chrome change the background",
   "version": "1.0",
   "description": "A plain background changing tool",
-  "icons": "arrows.png",
+  "icons": "128",
 
   "browser_action": {
-  "default_icon":"128",
+  "default_icon":"arrows.png",
   "default_popup":"popup.html",
   "default_title":"chrom background changer"
   },
