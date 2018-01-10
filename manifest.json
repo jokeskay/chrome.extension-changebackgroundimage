@@ -13,7 +13,7 @@
  
   "background": {
     "persistent": false,
-    "scripts": ["myscript.js"],
+    "scripts": ["myscript.js"]
   },
 
  "content_scripts": [
