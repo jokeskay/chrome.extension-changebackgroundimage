@@ -22,7 +22,7 @@
     {
       "matches": ["http://*/*", "https://*/*"],
       "css": ["popup.css"],
-      "js": ["jquery.js", "myscript.js"]
+      "js": ["myscript.js"]
     }
   ],
 
