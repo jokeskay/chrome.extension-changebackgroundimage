@@ -12,8 +12,8 @@
   },
  
   "background": {
-    "persistent": false
-    "scripts": ["myscript.js"]
+    "persistent": false,
+    "scripts": ["myscript.js"],
   },
 
  "content_scripts": [
