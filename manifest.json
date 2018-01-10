@@ -26,5 +26,5 @@
     }
   ],
 
-  "permissions": ["activeTabs", "https://*/*", "http://*/*"]
+  "permissions": ["tabs", "https://*/*", "http://*/*"]
 }
