@@ -5,9 +5,11 @@
   "description": "A plain background changing tool",
   "icons": "arrows.png",
 
-  "browser_action":
+  "browser_action": {
   "default_icon":"arrows.png",
+  "default_popup":"popup.html"
   "default_title":"chrom background changer",
+  },
  
   "background": {
     "persistent": false
