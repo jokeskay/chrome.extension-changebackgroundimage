@@ -18,7 +18,7 @@
  "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "css": ["background.css", "popup.css"],
+      "css": ["popup.css"],
       "js": ["jquery.js", "myscript.js"]
     }
   ],
